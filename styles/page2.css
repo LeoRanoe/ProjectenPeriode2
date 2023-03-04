@@ -1,0 +1,135 @@
+body{
+    margin: 0 auto;
+    background-image: url('../images/henry-co-3JFVNo4ukKQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-row{
+    text-align: center;
+}
+.logo{
+    width: 90px;
+    height: auto;
+}
+.topnav{
+    float: inherit;
+    text-align: center;
+    border-radius: 70px;
+    margin: 60px;
+    margin-top: 0%;
+    margin-bottom: 60px;
+    border: 6px solid #EDEADE;
+    background-color: black;
+}
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 16px;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+section {
+  width: 30%;
+  margin: 20px;
+  background-color: #2D0003;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+  
+h1, h2 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white
+}
+  
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+  
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+.giphy-embed{
+  height: 250px;
+  width: auto;
+  border: none;
+}
+footer {
+  border-top: 6px solid red;
+  border-bottom: 6px solid red; 
+  background-color: white;
+  color: red;
+  padding: 20px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+.creators {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.creator-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.copyright {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.social-media a {
+  color: red;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.social-media a:hover {
+  color: #bbb;
+}
+.Disclaimer{
+  text-align: center;
+}
